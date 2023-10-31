@@ -16,6 +16,9 @@ module.exports = {
       },
     },
     extend: {
+      maxWidth: {
+        '8xl': '1408px',
+      },
       colors: {
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
@@ -72,5 +75,5 @@ module.exports = {
       },
     },
   },
-  // plugins: [require('tailwindcss-animate'), require('@tailwindcss/typography')],
+  plugins: [require('tailwindcss-animate'), require('@tailwindcss/typography')],
 };
