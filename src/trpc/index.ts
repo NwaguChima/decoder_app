@@ -1,6 +1,6 @@
-import { router } from './trpc';
+import { publicProcedure, router } from './trpc';
 
-const appRouter = router({});
+export const appRouter = router({});
 
 // Export type router type signature.
 // Not the router itself.
