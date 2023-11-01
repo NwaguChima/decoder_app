@@ -6,6 +6,15 @@ const Page = () => {
 
   const searchParams = useSearchParams();
   const origin = searchParams.get('origin');
+
+  trpc.authCallback.useQuery(undefined, {
+    onSuccess: ({ success }) => {
+      if (success) {
+        // user is synced to db
+        router.push(origin ? `/${origin}` : '/dashboard');
+      }
+    },
+  });
 };
 
 export default Page;
