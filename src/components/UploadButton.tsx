@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Dialog, DialogContent, DialogTrigger } from './ui/dialog';
+import { Dialog, DialogContent, DialogTrigger } from './ui/Dialog';
 import { Button } from './ui/Button';
 
 const UploadButton = () => {
