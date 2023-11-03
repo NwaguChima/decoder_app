@@ -27,7 +27,7 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from './ui/dropdown-menu';
+} from './ui/Dropdown-menu';
 
 import SimpleBar from 'simplebar-react';
 import PdfFullscreen from './PdfFullscreen';
